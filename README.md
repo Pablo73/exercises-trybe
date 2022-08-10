@@ -1,10 +1,10 @@
 # Trybe - Exercícios
 
-Contém todas as atividades desenvolvidas por __[mim](www.linkedin.com/in/pablo-dominguez-712aa2124)__ durante minha tragetória na [Trybe](https://www.betrybe.com/) :rocket:
+Contém todas as atividades desenvolvidas por __[mim](https://www.linkedin.com/in/pablo-dominguez-712aa2124)__ durante minha tragetória na [Trybe](https://www.betrybe.com/) :rocket:
 
 >"O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda introdução ao desenvolvimento de software, front-end, back-end, ciência da computação, engenharia de software, metodologias ágeis e habilidades comportamentais."
 
-## Fundamentos do Desenvolvimento Web :heavy_check_mark:
+## Fundamentos do Desenvolvimento Web
 
 ##### Bloco 1: [Unix, Bash e Shell Script]
 - 1.3 - Fundamentos do Desenvolvimento Web
@@ -79,7 +79,7 @@ Contém todas as atividades desenvolvidas por __[mim](www.linkedin.com/in/pablo-
 - 10.3 - Jest - Simulando comportamentos
 - 10.4 - Projeto - Jest Assíncrono e Mocking
 
-## Desenvolvimento Front-end :heavy_check_mark:
+## Desenvolvimento Front-end
 
 ##### Bloco 11: [Introdução à React]
 - 11.1 - Introdução - Front-end
@@ -128,7 +128,7 @@ Contém todas as atividades desenvolvidas por __[mim](www.linkedin.com/in/pablo-
 ##### Bloco 19: Projeto App de Receitas
 - 19.1 - Projeto - App de Receitas
 
-## Desenvolvimento Back-end :hourglass_flowing_sand:
+## Desenvolvimento Back-end
 
 ##### Bloco 20: [Introdução à SQL]
 - 20.1 - Introdução - Back-end
@@ -212,7 +212,7 @@ Contém todas as atividades desenvolvidas por __[mim](www.linkedin.com/in/pablo-
 ##### Bloco 32: Projeto Trybeer II
 - 32.1 - Projeto - Trybeer v2
 
-## Ciência da Computação :hourglass_flowing_sand:
+## Ciência da Computação
 
 ##### Bloco 33: Arquitetura de Computadores e Redes
 - 33.1 - Introdução - Ciência da Computação
