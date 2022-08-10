@@ -1,0 +1,11 @@
+Trybe - Internet - Dinâmica Post It
+
+I - Cliente
+II - Servidor
+III - DNS
+IV - Engine de Renderização
+V - Requisição
+VI - Resposta
+VII - HTTP
+VIII - 200 OK
+
