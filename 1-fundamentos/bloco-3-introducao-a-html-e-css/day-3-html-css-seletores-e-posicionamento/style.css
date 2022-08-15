@@ -62,3 +62,22 @@
   top: 190px;
   left: 550px;
 }
+
+
+h1, p {
+ text-align: center;
+}
+
+.site{
+  background-color: chartreuse;
+  
+}
+li:hover{
+  background-color: aqua;
+}
+li:active{
+  color:brown;
+}
+.eu, .site{
+  list-style:none;
+}
