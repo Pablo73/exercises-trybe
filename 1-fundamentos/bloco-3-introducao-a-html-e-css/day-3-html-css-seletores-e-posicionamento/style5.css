@@ -36,6 +36,6 @@ a:hover{
     font-weight:900;
 }
 
-a[href*='stackoverFlow'{
-    color: lightsalmon;
+ul li:nth-of-type(2){
+    
 }
