@@ -1,6 +1,6 @@
 let numero = 7;
 
-for(i = 1 ; i<=9 ; i++){
+for(let i = 1 ; i<=9 ; i++){
     console.log(numero * i);
 }
 
@@ -8,6 +8,6 @@ for(i = 1 ; i<=9 ; i++){
 
 let groceryList = ['Arroz', 'Feijão', 'Alface', 'Melancia'];
 
-for(i = 0 ; i < groceryList.length ; i++){
+for(let i = 0 ; i < groceryList.length ; i++){
     console.log(groceryList[i]);
 }
