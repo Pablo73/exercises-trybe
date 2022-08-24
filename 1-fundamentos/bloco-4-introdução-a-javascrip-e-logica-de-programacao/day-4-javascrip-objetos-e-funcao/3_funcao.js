@@ -18,5 +18,3 @@ function morningGreeting(){
     console.log('Bom dia!');
 }
 morningGreeting();
-
-fun
