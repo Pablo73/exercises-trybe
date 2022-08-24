@@ -1,23 +1,23 @@
 // //Objeto
-// // let singer = {
-// //     name: 'Milton',
-// //     lastName: 'Nascimento',
-// //     nickName: 'Bituca',
-// //     age: 77,
-// //     bestAlbuns: ['Travessia', 'Clube da Esquina', 'Minas']
-// // };
+// let singer = {
+//     name: 'Milton',
+//     lastName: 'Nascimento',
+//     nickName: 'Bituca',
+//     age: 77,
+//     bestAlbuns: ['Travessia', 'Clube da Esquina', 'Minas']
+// };
 
-// // console.log('O cantor ' + singer.name + ' ' + singer.lastName + ' possue' + ' ' + singer.age + ' anos.');
+//console.log('O cantor ' + singer.name + ' ' + singer.lastName + ' possue' + ' ' + singer.age + ' anos.');
 
 // // console.log('O cantor ' + singer['name'] + ' ' + singer['lastName'] + ' possue' + ' ' + singer['age'] + ' anos.');
 
 // // //Criando propriedade
 
-// //singer['fullName'] = singer.name + ' ' + singer.lastName;
+// singer['fullName'] = singer.name + ' ' + singer.lastName;
 
-// // console.table(singer);
+//  console.table(singer);
 
-// //Objeto dentro de outro objeto.
+//Objeto dentro de outro objeto.
 
 // // let singer = {
 // //     name: 'Milton',
@@ -142,7 +142,7 @@
 
 //console.log('A jogadora ' + player.name + ' ' + player.lastName + ' tem ' + player.age + ' ' + 'anos de idade');
 
-//Exercicio 3 - 3 - Adicione ao objeto a chave bestInTheWorld e atribua a esta chave um array contendo as 
+//Exercicio 3 - Adicione ao objeto a chave bestInTheWorld e atribua a esta chave um array contendo as 
 //datas em que a jogadora Marta foi considerada a melhor do mundo.
 
 let player = {
@@ -153,18 +153,19 @@ let player = {
         golden: 2, 
         silver: 3
     }
-    // bestInTheWorld: {
-    //    array: [2006, 2007, 2008, 2009, 2010, 2018]
-    // }
 };
+
+player.bestInTheWorld = [2006, 2007, 2008, 2009, 2010, 2018]; // Ao tentar acessar uma chave inexistente o JavaScript automaticamente irá criar essa chave.
 
 //Exercicio 4 - Acesse a chave bestInTheWorld e faça um console.log no seguinte formato:
 // "A jogadora Marta Silva foi eleita a melhor do mundo por 6 vezes".
 
-//console.log('A jogadora Marta Silva foi eleita a melhor do mundo por ' + player.bestInTheWorld.array.length - 1 + ' vezes');
+//console.log(player);
+
+console.log('A jogadora Marta Silva foi eleita a melhor do mundo por ' + player.bestInTheWorld.length + ' vezes.');
 
 
 //Exrcicio 5 - Acesse a chave medals e faça um console.log no seguinte formato: "A jogadora possui 2 medalhas de ouro e 3 medalhas de prata".
 //Agora veremos uma variação do laço for, que nos garante facilidade ao lidar com objetos.
 
-console.log('A jogadora possui ' + player.medals.golden + ' medalhas de ouro e ' + player.medals.silver + ' medalhas de prata')
+// console.log('A jogadora possui ' + player.medals.golden + ' medalhas de ouro e ' + player.medals.silver + ' medalhas de prata')
