@@ -29,20 +29,20 @@
 
   //2 - Crie uma função que receba um array de inteiros e retorne o índice do maior valor.
 
-  // let array = [2, 3, 6, 17, 10, 1];
+  let array = [-2, -2, -1];
 
-  // function numeroMaior(numeros){
-  //   let maior = 0;
-  //   for (let index = 0 ; index < numeros.length ; index += 1){
+  function numeroMaior(numeros){
+    let maior = numeros[0];
+    for (let index = 0 ; index < numeros.length ; index += 1){
 
-  //       if(numeros[maior] < numeros[index]){
-  //           maior = index; 
-  //       }
-  //   }
-  //   return maior;
-  // }
+        if(maior < numeros[index]){
+            maior = numeros[index]; 
+        }
+    }
+    return maior;
+  }
 
-  // console.log(numeroMaior(array)); 
+  console.log(numeroMaior(array)); 
 
 
   //3 - Crie uma função que receba um array de inteiros e retorne o índice do menor valor.
@@ -78,7 +78,7 @@
   //   }
   //   return large
   // }
-  console.log(biggestWord(array));
+  //console.log(biggestWord(array));
 
 
 
@@ -128,15 +128,15 @@
 //Verifique se a string ending é o final da string word. Considere que a string ending sempre será menor que a string word.
 
 
-function compareString(string, string2){
+// function compareString(string, string2){
 
-    if (string[string.length] === string2[string2.length] && string[string.length - 1] === string2[string2.length - 1]){
-        return true;
-    }
-    return false;
-}
-console.log(compareString('trybe', 'be')); 
-console.log(compareString('joaofernando', 'fernan')); 
+//     if (string[string.length] === string2[string2.length] && string[string.length - 1] === string2[string2.length - 1]){
+//         return true;
+//     }
+//     return false;
+// }
+// console.log(compareString('trybe', 'be')); 
+// console.log(compareString('joaofernando', 'fernan')); 
 
 
 
