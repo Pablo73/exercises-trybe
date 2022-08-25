@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <header>
+      <h2 id="page-title">Título</h2>
+      <p class="lenda">Ayrton Senna</p>
+      <p class="piloto-f1-atual">Lewis Hamilton</p>
+      <p class="piloto-f1-atual">Sebastian Vettel</p>
+      <p class="piloto-f1-atual">Lando Norris</p>
+      <p id="paragraph">Dê uma cor para este parágrafo!</p>
+      <h4 id="subtitle">Subtítulo</h4>
+      <p id="second-paragraph">Segundo parágrafo!</p>
+    </header>
+    <script>
+      const paragraph = document.getElementById("paragraph");
+      paragraph.style.color = "red";
+      document.getElementById('page-title').innerText = "Clube da Luta";
+      document.getElementById('paragraph').innerText = 'È incrivel';
+      document.getElementById('subtitle').innerText = 'Legal'
+      document.getElementsByClassName('piloto-f1-atual')[0].style.color = 'green';
+      document.getElementsByTagName('subtitle')[0].style.color = 'red';
+    </script>
+  </body>
+</html>
