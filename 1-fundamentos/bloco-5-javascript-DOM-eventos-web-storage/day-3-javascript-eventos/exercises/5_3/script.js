@@ -58,11 +58,11 @@ function createDaysOfTheWeek() {
 function creatButton() {
 
    const buttonsContainer = document.querySelector('.buttons-container');
-   const button = document.createElement('button');
-   button.innerHTML = 'Feriado';
-   button.id = 'btn-holiday';
+   const buttonFeriado = document.createElement('button');
+   buttonFeriado.innerHTML = 'Feriado';
+   buttonFeriado.id = 'btn-holiday';
 
-   buttonsContainer.appendChild(button);
+   buttonsContainer.appendChild(buttonFeriado);
 
 }
 creatButton()
@@ -72,10 +72,50 @@ creatButton()
 // Adicione ao botão "Feriados" um evento de "click" que altere a cor de fundo dos dias que possuem a classe "holiday"
 // 👀 É interessante que esse botão possua também a lógica inversa. Ao ser clicado novamente, ele retorna à configuração inicial com a cor "rgb(238,238,238)".
 
+const sexta = document.querySelectorAll('.holiday');
+const button = document.getElementById('btn-holiday');
 
-function changeColor() {
+button.addEventListener('click', function () {
 
-const sexta = document.getElementsByClassName('holiday');
+  for (let index = 0; index < sexta.length; index += 1) {
+  
+  if (sexta[index].style.backgroundColor === "green"){
+    sexta[index].style.backgroundColor = "white";
+  }else {sexta[index].style.backgroundColor = "green"; }
+  }
+});
 
-    
+// Exercício 4:
+// Implemente uma função que crie dinamicamente um botão com o nome "Sexta-feira". Sua função deve receber como parâmetro a string "Sexta-feira".
+// Adicione a esse botão o ID "btn-friday";
+// Adicione esse botão como filho/filha da tag <div> com classe "buttons-container".
+
+function createButtonFriday() {
+  const buttonsContainer = document.querySelector('.buttons-container');
+  const buttonFriday = document.createElement('button');
+  buttonFriday.innerHTML = "Sexta-feira";
+  buttonFriday.id = "btn-friday";
+
+  buttonsContainer.appendChild(buttonFriday);
 }
+createButtonFriday()
+
+// Exercício 5:
+// Implemente uma função que modifica o texto exibido nos dias que são Sexta-feira. Adicione ao botão "Sexta-feira" um evento de "click" e modifique o texto a ser exibido nos dias que são sextas-feiras.
+// 👀 É interessante que esse botão possua também a lógica inversa. Ao ser clicado novamente, ele retorna à configuração inicial exibindo os dias.
+
+const fridayDay = document.querySelectorAll('.friday');
+const buttonFriday = document.getElementById('btn-friday');
+
+
+buttonFriday.addEventListener('click', function () {
+
+  for (let index = 0; index < fridayDay.length; index += 1) {
+
+  if (fridayDay[index].innerHTML === '4'){
+    friday[index].innerHTML = "Fim de semana!!!";
+
+  }//else {friday[index].style.backgroundColor = "number"; }
+ }
+});
+
