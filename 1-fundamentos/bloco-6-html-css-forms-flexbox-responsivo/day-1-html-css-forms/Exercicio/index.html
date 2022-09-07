@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criando um formulario</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <header class="competitor-to-the-trip">
+        <h1>Concorrer a uma viagem</h1>
+    </header>
+
+    <main>
+        <form action="" method="get" class="comṕetitor-form">
+            <div class="form-row">
+                <div class="line-content-1">
+                    <div class="line-content label-1">
+                        <label for="full-name">Nome:</label>
+                    </div>
+                    <div class="line-content input-1">
+                        <input type="text" name="full-name" id="full-name" required minlength="10" maxlength="40">
+                    </div>
+                </div>
+                <div class="line-content-2">
+                    <div class="line-content label-2">
+                        <label for="email">Email:</label>
+                    </div>
+                    <div class="line-content input-2">
+                        <input type="email" name="email" id="email" required minlength="10" maxlength="50">
+                    </div>
+                </div>
+                <div class="preferred-destination">
+                    <input type="radio" name="destination" id="city" required>
+                    <label for="city">Cidade</label>
+
+                    <input type="radio" name="destination" id="field" required>
+                    <label for="field">Campo</label>
+
+                    <input type="radio" name="destination" id="beach" required>
+                    <label for="beach">Praia</label>
+
+                    <input type="radio" name="destination" id="Mountain" required>
+                    <label for="Mountain">Montanhas</label>
+                </div>
+                <div class="question">
+                    <label for="input-question">Espaço para digitar a resposta:</label>
+                    <br>
+                    <textarea name="input-question" id="input-question"  required></textarea>
+                </div>
+                <div>
+                    <label for="input-date">Data:</label>
+                    <input type="date">
+                </div>
+                <div class="Marketing">
+                    <label for="" id="offers">Gostaria de receber incríveis ofertas? </label>
+                    <input type="checkbox">
+                    <br>
+                    <label for="" id="future-contests">Gostaria de participar de concursos futuros?</label>
+                    <input type="checkbox">
+                </div>
+            </div>
+            <div class="button">
+                <button id="enviar">Enviar</button>
+                <button id="apagar">Apagar</button>
+            </div>
+            
+            
+
+
+
+        </form>
+    </main>
+
+
+    <script src="/scrip.js"></script>
+</body>
+</html>

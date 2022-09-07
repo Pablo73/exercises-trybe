@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(234, 237, 240); 
+}
+
+.competitor-to-the-trip {
+    text-align: center;
+    background-color: rgb(222, 207, 186);
+    border: 3px solid rgb(214, 217, 220);
+    border-radius: 5px;
+    width: 80%;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+.form-row {
+    margin-bottom: 50px;
+    background-color: rgb(222, 207, 186);
+    border: 3px solid rgb(214, 217, 220);
+    border-radius: 5px;
+    width: 80%;
+    margin: 0px auto;
+    padding: 20px;
+}
+
+.label-1{
+    display: inline;
+} 
+.input-1{
+    display: inline;
+    padding: 2px;
+} 
+.label-2{
+    display: inline;
+} 
+.input-2{
+    display: inline;
+    padding: 5px;
+} 
+
+.line-content-1 {
+    margin-bottom: 8px;
+}
+.preferred-destination {
+    margin-top: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: small;
+    margin-bottom: 15px;
+}
+textarea {
+    resize: none;
+    width: 270px;
+    height: 120px;
+}
+.Marketing {
+    font-size: smaller;
+    margin-top: 10px;
+}
+.button {
+    margin-left: 11%;
+    margin-top: 10px;
+}
+#enviar {
+    padding: 8px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 9px;
+    margin-right: 5px;
+}
+#apagar {
+    padding: 8px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 9px;
+}
