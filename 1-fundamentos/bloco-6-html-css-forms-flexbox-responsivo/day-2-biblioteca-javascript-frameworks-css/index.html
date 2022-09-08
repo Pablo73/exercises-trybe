@@ -66,6 +66,7 @@
                     <div class="row p-3">
                         <label class="col-sm-2 col-form-label" for="input-date">Data:</label>
                         <input class="form-control" type="date">
+                        <!-- <input type="text" id="datepicker" value="9 Oct 2014"> -->
                     </div>
                     <div class="Marketing">
                         <div class="form-check form-switch">
@@ -81,13 +82,15 @@
             </div>
             <div class="button container overflow-hidden">
                 <button class="btn btn-primary" id="enviar">Enviar</button>
-                <button class="btn btn-primary" id="apagar">Apagar</button>
+                <button class="btn btn-primary" type="reset" id="apagar">Apagar</button>
             </div>
             <div class="text-success">
                 <hr class="border border-primary border-3 opacity-75">
             </div>
         </form>
     </main>
-    <script src="/scrip.js"></script>
+    <script src="/scrip.js"></script>-
+    <script src="/node_modules/moment/min/moment.min.js"></script>
+    <script src="/node_modules/pikaday/pikaday.js"></script>
 </body>
 </html>
