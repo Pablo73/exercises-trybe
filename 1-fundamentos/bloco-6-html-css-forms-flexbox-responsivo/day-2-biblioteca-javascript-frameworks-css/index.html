@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criando um formulario</title>
+    <link rel="stylesheet" href="/bootstrap-5.2.1-dist/css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="/bootstrap-5.2.1-dist/css/bootstrap.min.css">
+    <script src="/bootstrap-5.2.1-dist/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <div class="text-success">
+        <hr class="border border-primary border-3 opacity-75">
+    </div>
+    <header class="competitor-to-the-trip container overflow-hidden text-center" >
+        <h1 class="p-3 border bg-light">Concorrer a uma viagem</h1>
+    </header>
+    <main>
+        <form action="" method="get" class="comṕetitor-form">
+            <div class="container overflow-hidden">
+                <div class="form-row p-3 border bg-light">
+                    <div class="line-content-1 mb-3">
+                        <div class="line-content label-1">
+                            <label class="form-label" for="full-name">Nome:</label>
+                        </div>
+                        <div class="line-content input-1">
+                            <input  class="form-control" type="text" name="full-name" id="full-name" required minlength="10" maxlength="40">
+                        </div>
+                    </div>
+                    <div class="line-content-2 mb-3">
+                        <div class="line-content label-2">
+                            <label class="form-label" for="email">Email:</label>
+                        </div>
+                        <div class="line-content input-2">
+                            <input class="form-control" type="email" name="email" id="email" required minlength="10" maxlength="50">
+                        </div>
+                    </div>
+
+                    <div class="preferred-destination">
+                        <div class="form-check form-switch form-check-inline">
+                        <input class="form-check-input" type="radio" name="destination" id="city" required>
+                        <label class="" for="city">Cidade</label>
+                        </div>
+
+                        <div class="form-check form-switch form-check-inline">
+                        <input class="form-check-input" type="radio" name="destination" id="field" required>
+                        <label class="" for="field">Campo</label>
+                        </div>
+
+                        <div class="form-check form-switch form-check-inline">
+                        <input class="form-check-input" type="radio" name="destination" id="beach" required>
+                        <label class="" for="beach">Praia</label>
+                        </div>
+
+                        <div class="form-check form-switch form-check-inline">
+                        <input class="form-check-input" type="radio" name="destination" id="Mountain" required>
+                        <label class="" for="Mountain">Montanhas</label>
+                        </div>
+                    </div>
+                    <div class="question row p-3">
+                        <label for="input-question">Espaço para digitar a resposta:</label>
+                        <br>
+                        <textarea class="form-control" name="input-question" id="input-question"  required></textarea>
+                    </div>
+                    <div class="row p-3">
+                        <label class="col-sm-2 col-form-label" for="input-date">Data:</label>
+                        <input class="form-control" type="date">
+                    </div>
+                    <div class="Marketing">
+                        <div class="form-check form-switch">
+                        <label class="form-check-label" for="" id="offers" required >Gostaria de receber incríveis ofertas? </label>
+                        <input class="form-check-input" type="checkbox">
+                        </div>
+                        <div class="form-check form-switch">
+                        <label class="form-check-label" for="" id="future-contests" >Gostaria de participar de concursos futuros?</label>
+                        <input class="form-check-input" type="checkbox">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="button container overflow-hidden">
+                <button class="btn btn-primary" id="enviar">Enviar</button>
+                <button class="btn btn-primary" id="apagar">Apagar</button>
+            </div>
+            <div class="text-success">
+                <hr class="border border-primary border-3 opacity-75">
+            </div>
+        </form>
+    </main>
+    <script src="/scrip.js"></script>
+</body>
+</html>
