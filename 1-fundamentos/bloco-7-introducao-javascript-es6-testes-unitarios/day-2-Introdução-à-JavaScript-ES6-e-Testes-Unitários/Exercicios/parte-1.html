@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang='pt-BR'>
+<head>
+  <meta charset='UTF-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+  <title>Calculadora</title>
+</head>
+<body>
+  <p>Informe dois números para realizar a soma:</p>
+  <label for='value1'>Valor 1:</label>
+  <input type='text' id='value1'>
+  <label for='value2'>Valor 2:</label>
+  <input type='text' id='value2'>
+  <button id='button'>Somar</button>
+  <p id='result'></p>
+  <script>
+    const value1 = document.getElementById('value1');
+    const value2 = document.getElementById('value2');
+
+    const verifyIfEmpty = () => {
+
+      if (value1.value === '' || value2.value === '') {
+      throw new Error('Por favor inserir um número');
+      } 
+      if (isNaN(Number(value1.value) + Number(value2.value))) {
+      throw new Error('Para numeros racionais deve ser usado ponto');
+      } 
+    }
+
+    const sum = () => {
+      try { 
+        verifyIfEmpty();
+      
+      const result = Number(value1.value) + Number(value2.value);
+      document.getElementById('result').innerHTML = `Resultado: ${result}`;
+    } catch (error) {
+      document.getElementById('result').innerHTML = `${error.message}`;
+      } 
+      finally {
+      document.getElementById('value1').value = '';
+      document.getElementById('value2').value = '';
+      }
+    }
+
+    window.onload = () => {
+      const button = document.getElementById('button');
+      button.addEventListener('click', sum);
+    }
+  </script>
+</body>
+</html>
