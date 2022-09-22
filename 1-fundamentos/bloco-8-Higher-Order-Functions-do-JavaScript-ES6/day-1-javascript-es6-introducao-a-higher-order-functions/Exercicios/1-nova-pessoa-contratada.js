@@ -16,8 +16,11 @@ const newEmployees = (callback) => {
 
 const geratorEmail = (fullName) => {
     const email = fullName.toLowerCase().split(' ').join('_');
+    const email1 = fullName.toLowerCase().replace(' ', '_');
+
 
     return {fullName, email: `${email}@trybe.com`};
+    return {fullName, email: `${email1}@trybe.com`};
 };
 
 console.log(newEmployees (geratorEmail));
