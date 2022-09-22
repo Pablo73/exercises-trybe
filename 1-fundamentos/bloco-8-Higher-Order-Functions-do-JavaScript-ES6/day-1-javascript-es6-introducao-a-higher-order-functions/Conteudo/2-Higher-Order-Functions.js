@@ -73,7 +73,9 @@ const numberGenerator = () => {
 
   const goodEvening = () => 'Partiu dormir!!';
 
-  const situationDay = (fun) => fun();
+  const situationDay = (fun) => console.log(fun());
 
-  console.log(situationDay(breakfast));
+  situationDay(startDay);
+  situationDay(breakfast);
+  situationDay(goodEvening);
 
