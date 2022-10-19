@@ -1,18 +1,22 @@
-function About1() {
+import React from 'react';
+
+class Abouts extends React.Component {
+    render() {
     return (
-    <heder>
-      <h1>Pablo</h1>
-        <p> salame, salame, salame, salame, salame, salame, salame, salame, salame, </p>
-        <h2>Minhas Habilidades</h2>
-        <ul>
-            <li>React</li>
-            <li>JavaScript</li>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>Higher orden function</li>
-        </ul>
-    </heder>
-    )  
+        <div>
+        <h1>Pablo</h1>
+            <p> salame, salame, salame, salame, salame, salame, salame, salame, salame, </p>
+            <h2>Minhas Habilidades</h2>
+            <ul>
+                <li>React</li>
+                <li>JavaScript</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Higher orden function</li>
+            </ul>
+        </div>
+     );
+  } 
 }
 
-export default About1;
+export default Abouts;
