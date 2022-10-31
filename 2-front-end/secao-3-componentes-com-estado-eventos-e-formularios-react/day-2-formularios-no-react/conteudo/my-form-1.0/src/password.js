@@ -7,7 +7,11 @@ export class Password extends Component {
       <div>
         <labe>
             Password
-                <input name="password" type="password" value={value} onChange={handleChange}/>
+                <input 
+                    name="password" 
+                    type="password" 
+                    value={value} 
+                    onChange={handleChange}/>
             </labe>
         </div>
     )
