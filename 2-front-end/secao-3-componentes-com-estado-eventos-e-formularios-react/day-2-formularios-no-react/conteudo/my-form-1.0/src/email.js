@@ -6,7 +6,11 @@ export class Email extends Component {
     return (
        <labe>
             Email
-                <input name="email" type="email" value={value} onChange={handleChange}/>
+                <input 
+                    name="email" 
+                    type="email" 
+                    value={value} 
+                    onChange={handleChange}/>
         </labe>
     )
   }

@@ -6,7 +6,10 @@ export class Confirmation extends Component {
     return (
         <labe>
           Confirmação
-              <input name="confirmation" type="checkbox" value={value} onChange={handleChange}/>
+              <input 
+                name="confirmation" 
+                type="checkbox" value={value} 
+                onChange={handleChange}/>
         </labe>
     )
   }

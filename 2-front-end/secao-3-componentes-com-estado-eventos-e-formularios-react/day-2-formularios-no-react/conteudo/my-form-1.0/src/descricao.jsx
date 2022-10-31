@@ -6,7 +6,10 @@ export class Descricao extends Component {
     return (
         <labe>
             Descrição
-                <textarea name="descricao" value={value} onChange={handleChange}/>
+                <textarea 
+                    name="descricao" 
+                    value={value} 
+                    onChange={handleChange}/>
         </labe>
     )
   }
