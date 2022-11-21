@@ -1,6 +1,7 @@
 // App.test.js
 import React from 'react';
-import { render, screen, userEvent } from '@testing-library/react';
+import { render, screen } from '@testing-library/react';
+import userEvent from '@testing-library/user-event';
 import App from './App';
 
 afterEach(() => jest.clearAllMocks());
@@ -59,7 +60,7 @@ global.fetch.mockResolvedValueOnce({
   json: jest.fn().mockResolvedValue(joke2),
  });
 
- userEvent.click(screen.getByRole('button', {  name: /new joke/i}));
+ userEvent.click(screen.getByRole('button', { name: /new joke/i }));
 
 expect(await screen.findByText(joke2.joke)).toBeInTheDocument();
 expect(screen.queryByText(joke.joke)).not.toBeInTheDocument();
