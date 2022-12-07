@@ -15,7 +15,7 @@ class Header extends Component {
 
   handleSubmit = () => {
     const { dispatch } = this.props;
-    dispatch(fetchImagen(this.valueInput))
+    dispatch(fetchImagen(this.state.valueInput))
 
   }
 
