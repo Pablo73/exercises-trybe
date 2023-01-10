@@ -10,12 +10,13 @@ const requestStarted = () => {
   }
   
 const requestSuccessful = (value) => {
-  console.log(value)
+  console.log(value[0].aliases)
   return {
     type: REQUEST_SUCCESSFUL,
     payload: {
-      name: value.name,
-      culture: value.culture,
+      name: value[0].name,
+      culture: value[0].culture,
+      aliases: value[0].aliases,
     }
   };
 }
@@ -33,7 +34,7 @@ export const fetchImagen = (name) => {
     dispatch(requestStarted());
     try {
       // 2 Fazer a requisição
-      const response = await getCurrentImg(+name);
+      const response = await getCurrentImg(name);
 
       // 3.1 Avisar que a requisição foi um sucesso, e entregar a resposta
       dispatch(requestSuccessful(response));

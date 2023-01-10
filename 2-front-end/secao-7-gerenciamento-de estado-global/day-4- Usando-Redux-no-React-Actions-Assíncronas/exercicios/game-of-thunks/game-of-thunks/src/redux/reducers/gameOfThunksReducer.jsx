@@ -7,6 +7,7 @@ import {
 const INITIAL_STATE = {
   name: '',
   culture: '',
+  aliases: [],
   errorMessage: null,
   isLoading: false,
 };
@@ -24,7 +25,8 @@ const gameOfThunksReducer = (state = INITIAL_STATE, action) => {
         ...state,
         isLoading: false,
         name: action.payload.name,
-        gender: action.payload.gender,
+        culture: action.payload.culture,
+        aliases: action.payload.aliases,
       }
     }
     case REQUEST_FAILED: {
