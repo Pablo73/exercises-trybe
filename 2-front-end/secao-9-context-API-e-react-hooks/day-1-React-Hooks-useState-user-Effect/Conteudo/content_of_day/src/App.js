@@ -31,15 +31,32 @@
 // export default App;
 
 import React, { useState } from 'react';
+import { Chart } from "react-google-charts";
+
+const values = [
+  [
+    'Value', 
+    'Counter',
+  ],
+];
 
 function App() {
-  const [counter, setCounter] = useState(0);
+  const [value, setValue] = useState(0)
+  const [counter, setCounter] = useState(1);
+  const array = [value, counter]
+  values.push (array);
   return (
     <div>
       <div>Counter: {counter}</div>
-      <button type="button" onClick={() => setCounter(counter + 1)}>
+      <button type="button" onClick={() => (setCounter(counter * 2) || setValue(value + 1))}>
         Increase Counter
       </button>
+      <Chart
+        chartType="Line"
+        data={values}
+        width="100%"
+        height="400px"
+      />
     </div>
   );
 }
