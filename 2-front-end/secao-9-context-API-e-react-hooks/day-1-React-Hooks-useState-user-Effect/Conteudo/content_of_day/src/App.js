@@ -45,6 +45,13 @@ function App() {
   const [counter, setCounter] = useState(1);
   const array = [value, counter]
   values.push (array);
+
+const options = {
+  chart: {
+    title: 'Aprendendo a usar graficos',
+    subtitle: 'contagem'
+  }
+}
   return (
     <div>
       <div>Counter: {counter}</div>
@@ -56,6 +63,7 @@ function App() {
         data={values}
         width="100%"
         height="400px"
+        options={options}
       />
     </div>
   );
