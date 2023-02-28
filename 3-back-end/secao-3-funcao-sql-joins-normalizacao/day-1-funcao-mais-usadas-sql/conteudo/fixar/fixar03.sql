@@ -1,0 +1,1 @@
+SELECT CHARACTER_LENGTH('Uma frase qualquer');
