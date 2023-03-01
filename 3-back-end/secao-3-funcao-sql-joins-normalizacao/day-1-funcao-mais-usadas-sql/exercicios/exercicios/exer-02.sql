@@ -1,0 +1,1 @@
+SELECT MAX(max_salary) - MIN(max_salary) FROM hr.jobs;

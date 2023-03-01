@@ -1,8 +1,9 @@
+-- Active: 1677614377980@@127.0.0.1@33060
 version: '3'
 services:
   data-base:
     image: mysql:8.0
-    container_name: string_manipulation
+    container_name: employees
     volumes:
       - ./data-base:/var/lib/mysql
     ports:
