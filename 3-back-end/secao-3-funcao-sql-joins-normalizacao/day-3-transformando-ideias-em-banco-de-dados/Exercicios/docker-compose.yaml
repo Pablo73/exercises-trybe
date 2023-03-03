@@ -1,0 +1,12 @@
+version: '3'
+services:
+  data-base:
+    image: mysql:8.0
+    container_name: normalizacao
+    volumes:
+      - ./data-base:/var/lib/mysql
+    ports:
+      - 33060:3306
+    restart: on-failure
+    environment:
+      - MYSQL_ROOT_PASSWORD=password
