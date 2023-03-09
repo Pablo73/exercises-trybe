@@ -1,0 +1,9 @@
+Exercício 1
+Qual é a função do código de status 400 e 422?
+
+Os status 4xx são todos relacionados a erros o 400 e 422 são erro que sinalizam que o cliente é responsável pelo erro. 
+
+Exercício 2
+Qual é a função do código de status 401?
+
+O status 401 informa que houve um erro na autenticação.
