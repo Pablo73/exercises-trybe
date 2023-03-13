@@ -1,0 +1,179 @@
+[
+  {
+    "id": 1,
+    "name": "Trekking",
+    "price": 0,
+    "description": {
+      "rating": 5,
+      "difficulty": "Fácil",
+      "createdAt": "10/08/2022"
+    }
+  },
+  {
+    "id": 2,
+    "name": "parachute",
+    "price": 12,
+    "description": {
+      "rating": 8,
+      "difficulty": "Difícil",
+      "createdAt": "20/03/2023"
+    }
+  },
+  {
+    "id": 3,
+    "name": "climbing",
+    "price": 18,
+    "description": {
+      "rating": 5,
+      "difficulty": "Difícil",
+      "createdAt": "21/03/2023"
+    }
+  },
+  {
+    "id": 4,
+    "name": "O campo name deve ter pelo menos 4 caracteres",
+    "price": 18,
+    "description": {
+      "rating": 5,
+      "difficulty": "Difícil",
+      "createdAt": "21/03/2023"
+    }
+  },
+  {
+    "id": 5,
+    "name": "fd",
+    "price": 18,
+    "description": {
+      "rating": 5,
+      "difficulty": "Difícil",
+      "createdAt": "21/03/2023"
+    }
+  },
+  {
+    "id": 6,
+    "name": "pa",
+    "price": 18,
+    "description": {
+      "rating": 5,
+      "difficulty": "Difícil",
+      "createdAt": "21/03/2023"
+    }
+  },
+  {
+    "id": 7,
+    "name": "pa",
+    "price": 18,
+    "description": {
+      "rating": 5,
+      "difficulty": "Difícil",
+      "createdAt": "21/03/2023"
+    }
+  },
+  {
+    "id": 8,
+    "name": "climbin",
+    "price": 18,
+    "description": {
+      "rating": 5,
+      "difficulty": "Difícil",
+      "createdAt": "21/03/2023"
+    }
+  },
+  {
+    "id": 9,
+    "name": "climbin",
+    "price": 18,
+    "description": {
+      "rating": 5,
+      "difficulty": "Difícil",
+      "createdAt": "21/03/2023"
+    }
+  },
+  {
+    "id": 10,
+    "name": "climbin",
+    "price": 18,
+    "description": {
+      "rating": 5,
+      "difficulty": "Difícil",
+      "createdAt": "21/03/2023"
+    }
+  },
+  {
+    "id": 11,
+    "name": "climb",
+    "description": {
+      "rating": 5,
+      "difficulty": "Difícil",
+      "createdAt": "21/03/2023"
+    }
+  },
+  {
+    "id": 12,
+    "name": "clim",
+    "description": {
+      "rating": 5,
+      "difficulty": "Difícil",
+      "createdAt": "21/03/2023"
+    }
+  },
+  {
+    "id": 13,
+    "name": "climbhtryer",
+    "price": 0,
+    "description": {
+      "rating": 5,
+      "difficulty": "Difícil",
+      "createdAt": "21/03/2023"
+    }
+  },
+  {
+    "id": 14,
+    "name": "climbhtryer",
+    "price": 1,
+    "description": {
+      "rating": 5,
+      "difficulty": "Difícil",
+      "createdAt": "21/03/2023"
+    }
+  },
+  {
+    "id": 15,
+    "name": "rafting",
+    "price": 0,
+    "description": {
+      "rating": 5,
+      "difficulty": "Difícil",
+      "createdAt": "21/03/2023"
+    }
+  },
+  {
+    "id": 16,
+    "name": "raftings",
+    "price": 0,
+    "description": {
+      "rating": 5,
+      "difficulty": "Difícil",
+      "createdAt": "21/03/2023"
+    }
+  },
+  {
+    "id": 17,
+    "name": "raftin",
+    "description": {
+      "rating": 5,
+      "difficulty": "Difícil",
+      "createdAt": "21/03/2023"
+    }
+  },
+  {
+    "id": 18,
+    "name": "Trekkings",
+    "price": 1,
+    "description": {
+      "rating": 5,
+      "difficulty": "Fácil",
+      "createdAt": "10/08/2022"
+    }
+  }
+]
