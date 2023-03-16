@@ -4,9 +4,9 @@
   "description": "",
   "main": "src/server.js",
   "scripts": {
-    "start": "node src/server.js",
-    "dev": "nodemon src/server.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "env $(cat .env) node src/server.js",
+    "dev": "env $(cat .env) nodemon src/server.js",
+    "test": "env $(cat .env) mocha tests/**/*$NAME*.test.js --exit"
   },
   "keywords": [],
   "author": "",
@@ -19,6 +19,7 @@
     "sinon": "^14.0.0"
   },
   "dependencies": {
+    "dotenv": "16.0",
     "express": "4.17.1",
     "mysql2": "2.3.3"
   }
