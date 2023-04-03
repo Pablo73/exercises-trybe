@@ -87,9 +87,22 @@ const UserModel = (sequelize, DataTypes) => {
 
             // Agora essa entrada não existe mais no banco de dados!
 
+//=========================================================================================================            
+
+            const User = (sequelize, DataTypes) => {
+                  const User = sequelize.define('User', {
+                    fullName: DataTypes.STRING,
+                    email: DataTypes.STRING,
+                       // aqui inserimos o datatype da coluna criada
+                       phoneNum: DataTypes.STRING,
+                  });
+                
+                  return User;
+                };
     })();
   
     return User;
+
   };
   
   module.exports = UserModel;
