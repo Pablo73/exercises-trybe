@@ -1,0 +1,29 @@
+version: '3'
+
+services:
+  app_bookstore:
+    container_name: app
+    image: node:18-alpine
+    working_dir: /usr/src/app
+    volumes: 
+      - ./:/usr/src/app
+    stdin_open: true
+    tty: true
+    env_file:
+      - .env
+    ports:
+      - 3000:3000
+    depends_on: 
+      - db_bookstore
+
+  db_bookstore:
+    container_name: db
+    image: mysql:5.7
+    platform: linux/amd64
+    restart: always
+    env_file:
+      - .db_env
+    volumes:
+      - ./data/:/var/lib/mysql
+    ports:
+      - 33060:3306
