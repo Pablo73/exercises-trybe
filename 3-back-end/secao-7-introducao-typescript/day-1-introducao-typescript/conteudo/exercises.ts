@@ -39,3 +39,8 @@ export function getTrapezeArea(B: number, h: number, b: number): number {
 export function getCircleArea(radius: number): number {
     return Math.PI * radius ** 2;
   }
+
+//   const list: Array<Number> = ['fdf', 12]
+//   const test : [string, number] = ['fdf', 12];
+//   const test2: [string, number] = [12, 'fds'];
+const test2: (string | number)[] = [12, 'fds', 45];
