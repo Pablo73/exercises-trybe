@@ -13,20 +13,20 @@ aluno2.examsGrades = [25, 20, 25, 23];
 aluno1.assignmentsGrades = [50, 45];
 aluno2.assignmentsGrades = [47, 42];
 
-// console.log(aluno1)
-// console.log(aluno2)
+console.log(aluno1)
+console.log(aluno2)
 
-const testInterfaceEmployee: Employee = {
-    registration: 'FNC1234567891011',
-    salary: 1200.00,
-    admissionDate: new Date(),
+// const testInterfaceEmployee: Employee = {
+//     registration: 'FNC1234567891011',
+//     salary: 1200.00,
+//     admissionDate: new Date(),
   
-    generateRegistration(): string {
-      const randomStr = String(Date.now() * (Math.random() + 1)).replace(/\W/g, '');
+//     generateRegistration(): string {
+//       const randomStr = String(Date.now() * (Math.random() + 1)).replace(/\W/g, '');
   
-      return `FNC${randomStr}`;
-    },
-  };
+//       return `FNC${randomStr}`;
+//     },
+//   };
   
-  console.log(testInterfaceEmployee);
+  // console.log(testInterfaceEmployee);
   
